@@ -1,8 +1,9 @@
 name: Rubocop
-on:
-  pull_request:
-    branches:
-      - main
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     branches:
+#       - main
 jobs:
   build:
     runs-on: ubuntu-latest
